@@ -1,0 +1,37 @@
+# ==========================================================
+# SAP SADA SOCIAL WELFARE & LIFE PROTECTION UNIT
+# Git Ignore Configuration
+# ==========================================================
+
+# Environment Configuration
+.env
+.env.local
+.env.production
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+*.swp
+error_log
+
+# Installed lock file (optional)
+# config/installed.lock
+
+# Do not commit user-uploaded slips or temporary uploads, but preserve directory structure
+uploads/donations/*
+!uploads/donations/.gitkeep
